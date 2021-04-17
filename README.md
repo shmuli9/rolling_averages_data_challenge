@@ -1,5 +1,11 @@
 # Moving Averages Coding Challenge
 
+This was a very enjoyable take-home challenge for an internship application.
+
+The challenge details can be found in `challenge.md`.
+
+Thank you for a great challenge _**DA**_ (you know who you are!)
+
 ### Design decisions
 
 I opted to use pandas for the data processing. 
@@ -18,11 +24,12 @@ Once again pandas provides a convenient function for this, `fillna()`, which fil
 2. Install from the requirements.txt
 3. Run rolling_averages.py
 
+```
+python -m venv venv
+.\venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python rolling_averages.py
+```
 
-    python -m venv venv
-    .\venv\Scripts\activate
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    python rolling_averages.py
-    
 A time stamped image (showing the rolling average, overlaying the original data) will be saved in the working directory. Eg `.\rolling_average_15_23_14.png`
